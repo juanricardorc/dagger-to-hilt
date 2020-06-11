@@ -16,7 +16,9 @@ import javax.inject.Named
 
 /*
 *
-*
+* Hilt puede proporcionar dependencias a otras clases de Android que tengan la
+* anotación @AndroidEntryPoint. @AndroidEntryPoint Genera un componente Hilt individual
+* para cada clase de Android en su proyecto.
 *
 * */
 
