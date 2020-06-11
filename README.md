@@ -22,9 +22,10 @@ Dagger te libera de escribir código repetitivo tedioso y propenso a errores al:
 
 - Reutilizar una dependencia o crear nuevas instancias de un tipo dependiendo de cómo se configura el tipo mediante ámbitos .
 
-- Crear contenedores para flujos específicos como lo hizo con el flujo de inicio de sesión en la sección anterior utilizando subcomponentes Dagger . Esto mejora el rendimiento de su aplicación al liberar objetos en la memoria cuando ya no son necesarios.
+- Crear contenedores para flujos específicos como lo hizo con el flujo de inicio de sesión en la sección anterior utilizando subcomponentes Dagger . Esto mejora el rendimiento de su aplicación al liberar objetos en la memoria cuando ya no son necesarios. By https://developer.android.com/training/dependency-injection/dagger-basics
 
 ## ¿Qué es Hilt?
 Hilt es una biblioteca de inyección de dependencias para Android que reduce la dificultad de hacer una inyección de dependencia manual en su proyecto. Hacer una inyección manual de dependencias requiere que construyas cada clase y sus dependencias a mano, y que uses contenedores para reutilizar y administrar dependencias.
 
-Hilt proporciona una forma estándar de usar DI en su aplicación al proporcionar contenedores para cada clase de Android en su proyecto y administrar sus ciclos de vida automáticamente. Hilt está construido sobre la popular Dagger de la biblioteca DI para beneficiarse de la corrección en tiempo de compilación, el rendimiento en tiempo de ejecución, la escalabilidad y el soporte de Android Studio que proporciona Dagger. Para obtener más información, vea Hilt y Dagger.
+Hilt proporciona una forma estándar de usar DI en su aplicación al proporcionar contenedores para cada clase de Android en su proyecto y administrar sus ciclos de vida automáticamente. Hilt está construido sobre la popular Dagger de la biblioteca DI para beneficiarse de la corrección en tiempo de compilación, el rendimiento en tiempo de ejecución, la escalabilidad y el soporte de Android Studio que proporciona Dagger. Para obtener más información, vea Hilt y Dagger. 
+By https://developer.android.com/training/dependency-injection/hilt-android#kotlin
