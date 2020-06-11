@@ -29,3 +29,8 @@ Hilt es una biblioteca de inyección de dependencias para Android que reduce la 
 
 Hilt proporciona una forma estándar de usar DI en su aplicación al proporcionar contenedores para cada clase de Android en su proyecto y administrar sus ciclos de vida automáticamente. Hilt está construido sobre la popular Dagger de la biblioteca DI para beneficiarse de la corrección en tiempo de compilación, el rendimiento en tiempo de ejecución, la escalabilidad y el soporte de Android Studio que proporciona Dagger. Para obtener más información, vea Hilt y Dagger. 
 By https://developer.android.com/training/dependency-injection/hilt-android#kotlin
+
+## Hilt: Jerarquía de componentes
+<p align="center">
+  <img alt="https://www.themoviedb.org/" src="https://developer.android.com/images/training/dependency-injection/hilt-hierarchy.svg"/>
+</p>
